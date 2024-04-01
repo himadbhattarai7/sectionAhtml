@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main h1 {
+  font-size: 50px;
+  color: white;
+}
+.main h1:hover {
+  color: red;
+  cursor: pointer;
+}
+.main p {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 10px;
+  font-family: monospace;
+}/*# sourceMappingURL=main.css.map */
